@@ -30,6 +30,16 @@ body {
     border-radius: 10px;
 }
 
+.section-title {
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: rgba(37, 36, 50, 0.50);
+    font-size: 16px;
+}
 
 /* header style */
 header {
@@ -68,4 +78,32 @@ nav {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 37px;
+}
+
+
+/* See It in Action section style */
+
+.See-It-in-Action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+
+.See-It-in-Action div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 517px;
+    gap: 23px;
+}
+
+.See-It-in-Action div .section-description{
+    font-size: 24px;
+}
+
+.conf-img {
+    width: 403px;
+    border-radius: 48px;
 }
