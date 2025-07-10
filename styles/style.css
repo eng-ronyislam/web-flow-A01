@@ -9,9 +9,11 @@
 /* sheard style */
 body {
     font-family: "Raleway", sans-serif;
+    background-color: #F5F8FF;
 }
 
-.logo {
+.logo,
+.users h4 {
     font-family: "Inter", sans-serif;
 }
 
@@ -39,6 +41,10 @@ body {
 .section-description {
     color: rgba(37, 36, 50, 0.50);
     font-size: 16px;
+}
+
+.text-canter {
+    text-align: center;
 }
 
 /* header style */
@@ -74,7 +80,6 @@ nav {
 
 .banner-title {
     color: #252432;
-    text-align: center;
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 37px;
@@ -99,11 +104,41 @@ nav {
     gap: 23px;
 }
 
-.See-It-in-Action div .section-description{
+.See-It-in-Action div .section-description {
     font-size: 24px;
 }
 
 .conf-img {
     width: 403px;
     border-radius: 48px;
+}
+
+/* Joined-Thousands-of-Productive-Users style */
+.Joined-Thousands-of-Productive-Users {
+    background: rgba(78, 71, 255, 0.10);
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+
+.Joined-Thousands-of-Productive-Users .section-title {
+    font-size: 38px;
+}
+
+.users-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+}
+
+.users h4 {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.users p{
+    color: rgba(0, 0, 0, 0.50);
+font-size: 20px;
+font-weight: 400;
 }
