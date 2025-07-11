@@ -14,7 +14,8 @@ body {
 
 .logo,
 .users h4,
-label {
+label,
+footer git {
     font-family: "Inter", sans-serif;
 }
 
@@ -31,6 +32,13 @@ label {
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #6b63fff2, #4636ff);
+  box-shadow: 0 12px 25px rgba(106, 90, 255, 0.4);
+  transform: scale(1.05);
 }
 
 .section-title {
@@ -264,7 +272,7 @@ footer {
     border-top: 1px solid rgba(0, 0, 0, 0.10);
 }
 
-footer .logo{
+footer .logo {
     font-size: 100px;
 }
 
