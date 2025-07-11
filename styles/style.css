@@ -13,7 +13,8 @@ body {
 }
 
 .logo,
-.users h4 {
+.users h4,
+label {
     font-family: "Inter", sans-serif;
 }
 
@@ -210,11 +211,44 @@ nav {
     border-radius: 14px;
 }
 
-.Ready-to-focus-better .section-title{
+.Ready-to-focus-better .section-title {
     font-size: 50px;
 }
 
-.Ready-to-focus-better img{
+.Ready-to-focus-better img {
     border-radius: 48px;
 }
 
+.Let’s-Get-in-Touch-container {
+    padding: 71px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Let’s-Get-in-Touch-container .section-title {
+    font-size: 95px;
+}
+
+.contact-from {
+    width: 497px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-from div label {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-from input[type="email"],
+.contact-from input[type="text"],
+.contact-from textarea {
+    background: #FFF;
+    padding: 20px 32px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
