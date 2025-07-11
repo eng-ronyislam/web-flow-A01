@@ -197,3 +197,24 @@ nav {
     color: rgba(179, 179, 179, 1);
     font-size: 16px;
 }
+
+/* Ready to focus better style */
+.Ready-to-focus-better {
+    background: #FFF;
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 14px;
+}
+
+.Ready-to-focus-better .section-title{
+    font-size: 50px;
+}
+
+.Ready-to-focus-better img{
+    border-radius: 48px;
+}
+
