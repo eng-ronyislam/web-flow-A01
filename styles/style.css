@@ -252,3 +252,35 @@ nav {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+/* footer style */
+footer {
+    background: #FFF;
+    padding: 105px 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+footer .logo{
+    font-size: 100px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+}
